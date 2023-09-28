@@ -1,11 +1,8 @@
-# ops435-a1
+# Date Assignment
 # Resource, sample code, and test data
+# www.HosseinKoofi.ir
 
-For the detail specification, please go to
+For the detail specification, please go to:
 
-https://wiki.cdot.senecacollege.ca/wiki/OPS435_Online_Assignment_1
+www.HosseinKoofi.ir
 
-Final Due date: June 21 before mid-night
-
-
-Last update: June 6, 2021
