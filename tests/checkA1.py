@@ -1,13 +1,8 @@
 #! /usr/bin/env python3
 '''
-This check script will run the sample tests on assignment 1 script 
-before submitting to blackboard by the students.
+This check script will run the sample tests on assignment 1.
 Please note that this script does not check the docstring of the script 
 or its functions.
-This check scripts will only account for 30% of assignment 1.
-
-Released by Raymond Chan on Oct 30, 2018
-Updated for the 2021 Winter Semester version on Feb 3, 2021
 '''
 
 import types 
@@ -17,13 +12,13 @@ import subprocess
 
 
 def preliminary_grading(stud_name):
-    message = '\n== Preliminary A1 Test Run Report for '+stud_name+'==\nThe following is your preliminary test run report for assignment 1. Please review the report and fix all the errors identified before submitting your algorithm, python script, and test report to blackboard using the assignment 1 submission link which will be available on Monday, October 16 2020.\n'
+    message = '\n== Preliminary A1 Test Run Report for '+stud_name+'==\nThe following is your preliminary test run report for date assignment. Please review the report and fix all the errors identified before submitting your algorithm, python script, and test report.\n'
     return message
 
 
 if __name__ == '__main__':
    if len(sys.argv) != 2:
-        student = input('Please enter your email user id:')
+        student = input('Please enter your student_name:')
    else:
         student = sys.argv[1]
    
