@@ -1,19 +1,15 @@
 #!/usr/bin/env python3
-''' template for ops435 assignment 1 script
+''' template for date assignment script
     put your script level docstring here...
     you can have more than one line of docstring.
     Please personlize the following author declaration:
 -----------------------------------------------------------------------
-OPS435 Assignment 1 - Winter 2021
-Program: a1_[Seneca_name].py (replace [Seneca_name] with your Seneca User name)
+Program: a1_[student_name].py (replace [student_name] with your student name)
 Author: "Student Name"
-The python code in this file (a1_[Seneca_name].py) is original work written by
+The python code in this file (a1_[student_name].py) is original work written by
 "Student Name". No code in this file is copied from any other source 
 except those provided by the course instructor, including any person, 
-textbook, or on-line resource. I have not shared this python script 
-with anyone or anything except for submission for grading.  
-I understand that the Academic Honesty Policy will be enforced and 
-violators will be reported and appropriate action will be taken.
+textbook, or on-line resource.
 '''
 import os
 import sys

@@ -1,4 +1,4 @@
-Algorithm for Assignment 1 - first iteration - By Raymond Chan
+Algorithm for Assignment 1 
 [Note: Do not submit this as your own for Checkpoint 1]
 
 (1) Take the first data item and remove all non-digit characters
