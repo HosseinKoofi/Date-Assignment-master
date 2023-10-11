@@ -71,7 +71,7 @@ if __name__ == "__main__":
    # setp 4
    result = size_check(dob,8)
    if result == False:
-       print("Error 09: wrong data entered")
+       print("Error 09: wrong date entered")
        sys.exit()
    # step 5
    year = int(dob[0:4])

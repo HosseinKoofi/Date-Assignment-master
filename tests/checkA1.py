@@ -57,8 +57,8 @@ if __name__ == '__main__':
        cmd = 'python a1_'+student+'.py '+tests[test_no][0]
        print('Test run command',test_no,':',cmd)
        p1 = subprocess.Popen(cmd,shell=True,stdout=subprocess.PIPE)
-       result = p1.communicate()[0].decode('utf-8').strip('\n')
-       expected = tests[test_no][1].strip('\n')
+       result = p1.communicate()[0].decode('utf-8').strip()
+       expected = tests[test_no][1].strip()
        if result == expected:
           print('--test passed--')
           test_marks[test_no] = 1
