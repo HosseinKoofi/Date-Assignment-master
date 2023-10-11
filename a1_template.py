@@ -67,7 +67,7 @@ if __name__ == "__main__":
    # step 3
    allow_chars = '0123456789'
    dob = sanitize(user_raw_data, allow_chars)
-   print('Sanitized user data:', dob)
+   #print('Sanitized user data:', dob)
    # setp 4
    result = size_check(dob,8)
    if result == False:
@@ -96,4 +96,4 @@ if __name__ == "__main__":
    # step 7
    new_dob = str(month_name[month - 1])+' '+ str(day)+', '+str(year)
    # step 8
-   print("Your date of birth is:", new_dob)  
+   print(new_dob)  
